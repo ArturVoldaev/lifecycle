@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+let testProps = {
+  a1 :5 ,
+  a2 :10,
+}
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App testProps = {testProps}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
